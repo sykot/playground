@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Owl 2 Carousel</title>
+    <link rel="stylesheet" href="owl.carousel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="owl.carousel.js"></script>
+  </head>
+  <body>
+    <div class="owl-carousel">
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+      <div>
+        <img src="http://dummyimage.com/1920x400/ebd349/fff">
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          nav: true,
+          items: 1,
+          autoplay: 3000,
+        })
+      });
+    </script>
+  </body>
+</html>
