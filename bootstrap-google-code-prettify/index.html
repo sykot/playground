@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Google Code Prettify by Sykot.com</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/prettify.css">
+    <script src="assets/prettify.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          window.prettyPrint && prettyPrint()
+        })
+      }(window.jQuery)
+    </script>
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Bootstrap Google Code Prettify by Sykot.com</h1>
+        <a href="bs-prettify.zip" class="btn btn-lg btn-success btn-default">Download Code</a> <a href="http://www.sykot.com/?p=323" class="btn btn-lg btn-warning btn-default">Back to the Tutorial</a>
+      </div>
+    </header>
+
+    <hr>
+
+    <div class="code-demo">
+      <div class="container">
+<h3>Without Line Number</h3>
+<pre class="prettyprint">/*-- CSS Sample --*/
+body {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        border-top: 5px solid #333;
+}
+a:link, a:visited {
+	color: #0088CC;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #005588;
+}</pre>
+<pre class="prettyprint">&lt;!-- HTML Sample --&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Sykot.com&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Hello There!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<pre class="prettyprint">&lt;!-- PHP Sample --&gt;
+&lt;?php
+    query_posts( "cat=19&amp;posts_per_page=5" );
+    while (have_posts()) : the_post();
+?&gt;
+
+    &lt;h3&gt;&lt;a href="&lt;?php the_permalink() ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;?php the_excerpt() ?&gt;
+
+&lt;?php endwhile; ?&gt;</pre>
+<pre class="prettyprint">&lt;!-- JavaScript Sample --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  !function ($) {
+    $(function(){
+      window.prettyPrint &amp;&amp; prettyPrint()
+    })
+  }(window.jQuery)
+&lt;/script&gt;</pre>
+<h3>With Line Number</h3>
+<pre class="prettyprint linenums">/*-- CSS Sample --*/
+body {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        border-top: 5px solid #333;
+}
+a:link, a:visited {
+	color: #0088CC;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #005588;
+}</pre>
+<pre class="prettyprint linenums">&lt;!-- HTML Sample --&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Sykot.com&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Hello There!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<pre class="prettyprint linenums">&lt;!-- PHP Sample --&gt;
+&lt;?php
+    query_posts( "cat=19&amp;posts_per_page=5" );
+    while (have_posts()) : the_post();
+?&gt;
+
+    &lt;h3&gt;&lt;a href="&lt;?php the_permalink() ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;?php the_excerpt() ?&gt;
+
+&lt;?php endwhile; ?&gt;</pre>
+<pre class="prettyprint linenums">&lt;!-- JavaScript Sample --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  !function ($) {
+    $(function(){
+      window.prettyPrint &amp;&amp; prettyPrint()
+    })
+  }(window.jQuery)
+&lt;/script&gt;</pre>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <div class="container">
+        <p>By <a href="http://www.sykot.com">Sykot.com</a><br><br></p>
+      </div>
+    </footer>
+
+  </body>
+</html>
